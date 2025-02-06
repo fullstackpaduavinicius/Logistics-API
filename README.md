@@ -84,6 +84,7 @@ DB_NAME=logistics_db
 JWT_SECRET=sua_chave_secreta
 
 ***Estrutura do Projeto***
+
 logistics-api/
 
 ├── src/
