@@ -85,22 +85,39 @@ JWT_SECRET=sua_chave_secreta
 
 ***Estrutura do Projeto***
 logistics-api/
+
 ├── src/
+
 │   ├── controllers/             # Controladores das rotas
+
 │   │   └── orderController.ts
+
 │   ├── models/                  # Modelos do banco de dados
+
 │   │   └── orderModel.ts
+
 │   ├── routes/                  # Definição das rotas
+
 │   │   └── orderRoutes.ts
+
 │   ├── services/                # Lógica de negócios
+
 │   │   └── orderService.ts
+
 │   ├── app.ts                   # Configuração do Express
+
 │   └── server.ts                # Inicialização do servidor
+
 ├── tests/                       # Arquivos de teste
+
 │   └── orderController.test.ts  # Testes para o controlador de pedidos
+
 ├── .env                         # Variáveis de ambiente
+
 ├── package.json                 # Dependências e scripts
+
 ├── tsconfig.json                # Configuração do TypeScript
+
 └── README.md                    # Documentação do projeto
 
 
@@ -108,9 +125,13 @@ logistics-api/
 Abaixo estão os principais endpoints disponíveis na API:
 
 POST /orders: Cria um novo pedido.
+
 GET /orders: Lista todos os pedidos.
+
 GET /orders/:id: Obtém detalhes de um pedido específico.
+
 PUT /orders/:id: Atualiza as informações de um pedido.
+
 DELETE /orders/:id: Exclui um pedido específico.
 
 
