@@ -74,9 +74,13 @@ Antes de começar, certifique-se de ter as seguintes ferramentas instaladas:
 
 Crie um arquivo .env na raiz do projeto e adicione as seguintes variáveis:
 DB_HOST=localhost
+
 DB_USER=seu_usuario
+
 DB_PASSWORD=sua_senha
+
 DB_NAME=logistics_db
+
 JWT_SECRET=sua_chave_secreta
 
 ***Estrutura do Projeto***
