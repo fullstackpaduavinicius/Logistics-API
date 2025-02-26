@@ -1,6 +1,6 @@
 # Logistics API
 
-API para sistema de gerenciamento de pedidos para uma empresa de logística. Este projeto foi desenvolvido com **Node.js**, **Express**, **TypeScript**, e **PostgreSQL**. O sistema permite o gerenciamento de pedidos e proporciona uma base escalável para futuras expansões, com ênfase em performance e segurança.
+API para sistema de gerenciamento de pedidos para uma empresa de logística. Este projeto foi desenvolvido com **Node.js**, **Express**, **TypeScript**, e **MongoDB**. O sistema permite o gerenciamento de pedidos e proporciona uma base escalável para futuras expansões, com ênfase em performance e segurança.
 
 ## Índice
 
@@ -22,7 +22,7 @@ API para sistema de gerenciamento de pedidos para uma empresa de logística. Est
 
 Este projeto é uma API RESTful para o gerenciamento de pedidos de uma empresa de logística. A API foi construída para ser escalável, modular e de fácil manutenção. Ela oferece operações CRUD (criação, leitura, atualização e exclusão) para os pedidos, além de autenticação com JWT.
 
-O sistema utiliza **PostgreSQL** como banco de dados, **TypeScript** para tipagem estática, e **Jest** para testes automatizados.
+O sistema utiliza **MongoDB** como banco de dados, **TypeScript** para tipagem estática, e **Jest** para testes automatizados.
 
 ---
 
@@ -43,7 +43,7 @@ O sistema utiliza **PostgreSQL** como banco de dados, **TypeScript** para tipage
 - **Node.js**: Ambiente de execução JavaScript no lado do servidor.
 - **Express**: Framework para a criação de APIs RESTful.
 - **TypeScript**: Superset do JavaScript que adiciona tipagem estática ao código.
-- **PostgreSQL**: Banco de dados relacional utilizado para armazenar dados dos pedidos.
+- **MongoDB**: Banco de dados relacional utilizado para armazenar dados dos pedidos.
 - **JWT (JSON Web Tokens)**: Utilizado para autenticação de usuários.
 - **Jest**: Framework de testes unitários.
 - **Nodemon**: Ferramenta para reiniciar automaticamente o servidor durante o desenvolvimento.
@@ -58,7 +58,7 @@ O sistema utiliza **PostgreSQL** como banco de dados, **TypeScript** para tipage
 Antes de começar, certifique-se de ter as seguintes ferramentas instaladas:
 
 - **Node.js** (v14 ou superior)
-- **PostgreSQL** (instalado e em execução)
+- **MongoDB** (instalado e em execução)
 - **NPM** (gerenciador de pacotes do Node.js)
 
 ### Passos para Instalação
